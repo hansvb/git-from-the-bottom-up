@@ -1,12 +1,12 @@
 # Introduction
 
-Welcome to the world of Git. I hope this document will help to advance your understanding of this powerful content tracking system, and reveal a bit of the simplicity underlying it — however dizzying its array of options may seem from the outside.
+Welkom in de wereld van Git. Ik hoop dat dit document u de onderliggende eenvoud van dit krachtige content tracking systeem beter kan laten begrijpen ondanks het duizelingwekkend aantal mogelijkheden die Git van buitenaf lijkt aan te bieden.
 
-Before we dive in, there are a few terms which should be mentioned first, since they’ll appear repeatedly throughout this text:
+Laten we eerst een paar termen doornen die doorheen de tekst voorkomen:
 
-* **repository** — A **repository** is a collection of _commits_, each of which is an archive of what the project's _working tree_ looked like at a past date, whether on your machine or someone else's. It also defines HEAD (see below), which identifies the branch or commit the current working tree stemmed from. Lastly, it contains a set of _branches_ and _tags_, to identify certain commits by name.
+* **repository** — Een **repository** is een verzameling _commits_, elk een archief van de _working tree_ op een vroegere datum - op uw eigen machine of dat van iemand anders. Het definieert ook HEAD (zie verder), wat aanduidt van welke branch of commit de huidige working tree afstamt. Tot slot bevat het een set van _branches_ en _tags_ om bepaalde commits bij naam te kunnen noemen.
 
-* **the index** — Unlike other, similar tools you may have used, Git does not commit changes directly from the _working tree_ into the _repository_. Instead, changes are first registered in something called **the index**. Think of it as a way of “confirming” your changes, one by one, before doing a commit (which records all your approved changes at once). Some find it helpful to call it instead as the “staging area”, instead of the index.
+* de **index** - Git schrijft veranderingen van de _working tree_ niet onmiddellijk in de _repository. Veranderingen worden eerst geregistreerd in wat men de **index** noemt. Je kan het beschouwen als een manier om je wijzigingen, één voor één, te bevestigen voordat je een commit doet (dewelke in één keer al je goedgekeurde wijzigingen onthoudt). Sommigen noemden de index liever de  “staging area”.
 
 * **working tree** — A **working tree** is any directory on your filesystem which has a _repository_ associated with it (typically indicated by the presence of a sub-directory within it named `.git`.). It includes all the files and sub-directories in that directory.
 
